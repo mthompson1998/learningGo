@@ -8,15 +8,14 @@ type water int
 
 var x water
 
+var y int
+
 func main() {
 	x = 42
 	fmt.Println(x)
 	fmt.Printf("%T\n", x)
-	// print format Prints the type! '\n' puts value on new line
-}
+	y = int(x)
+	fmt.Println(y)
+	fmt.Printf("%T\n", y)
 
-/*
-$ go run main.go
-42
-main.water
-*/
+}
