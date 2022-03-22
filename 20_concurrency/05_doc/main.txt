@@ -1,0 +1,12 @@
+Methods Set Documentation
+
+    "The method set of a type determines the
+    INTERFACES that the type implements....."
+
+Concurrency Documentation
+
+    Share by communicating....
+    other programs require subtleties to
+
+    A race condition is when you have shared variables
+    and the "read/write" gets messed up
